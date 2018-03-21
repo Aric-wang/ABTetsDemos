@@ -15,6 +15,11 @@
 		D3831E9120625C25005DD384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831E9020625C25005DD384 /* main.m */; };
 		D3831E9B20625C25005DD384 /* ABTestDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831E9A20625C25005DD384 /* ABTestDemosTests.m */; };
 		D3831EA620625C25005DD384 /* ABTestDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EA520625C25005DD384 /* ABTestDemosUITests.m */; };
+		D3831EC020625C2E005DD384 /* FSABTestFundModelParam.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EB620625C2D005DD384 /* FSABTestFundModelParam.m */; };
+		D3831EC120625C2E005DD384 /* FSABTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EB820625C2D005DD384 /* FSABTestManager.m */; };
+		D3831EC220625C2E005DD384 /* FSABTestModelResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EBA20625C2D005DD384 /* FSABTestModelResult.m */; };
+		D3831EC320625C2E005DD384 /* FSBasicABTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EBC20625C2D005DD384 /* FSBasicABTestModel.m */; };
+		D3831EC420625C2E005DD384 /* FSABTestProtocolDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EBF20625C2E005DD384 /* FSABTestProtocolDispatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		D3831EA120625C25005DD384 /* ABTestDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTestDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3831EA520625C25005DD384 /* ABTestDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTestDemosUITests.m; sourceTree = "<group>"; };
 		D3831EA720625C25005DD384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3831EB420625C2D005DD384 /* FABTestSeviceDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABTestSeviceDef.h; sourceTree = "<group>"; };
+		D3831EB520625C2D005DD384 /* FSABTestFundModelParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestFundModelParam.h; sourceTree = "<group>"; };
+		D3831EB620625C2D005DD384 /* FSABTestFundModelParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestFundModelParam.m; sourceTree = "<group>"; };
+		D3831EB720625C2D005DD384 /* FSABTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestManager.h; sourceTree = "<group>"; };
+		D3831EB820625C2D005DD384 /* FSABTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestManager.m; sourceTree = "<group>"; };
+		D3831EB920625C2D005DD384 /* FSABTestModelResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestModelResult.h; sourceTree = "<group>"; };
+		D3831EBA20625C2D005DD384 /* FSABTestModelResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestModelResult.m; sourceTree = "<group>"; };
+		D3831EBB20625C2D005DD384 /* FSBasicABTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBasicABTestModel.h; sourceTree = "<group>"; };
+		D3831EBC20625C2D005DD384 /* FSBasicABTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBasicABTestModel.m; sourceTree = "<group>"; };
+		D3831EBE20625C2E005DD384 /* FSABTestProtocolDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestProtocolDispatcher.h; sourceTree = "<group>"; };
+		D3831EBF20625C2E005DD384 /* FSABTestProtocolDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestProtocolDispatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		D3831E8020625C25005DD384 /* ABTestDemos */ = {
 			isa = PBXGroup;
 			children = (
+				D3831EB320625C2D005DD384 /* ABTestSevice */,
 				D3831E8120625C25005DD384 /* AppDelegate.h */,
 				D3831E8220625C25005DD384 /* AppDelegate.m */,
 				D3831E8420625C25005DD384 /* ViewController.h */,
@@ -130,6 +147,32 @@
 				D3831EA720625C25005DD384 /* Info.plist */,
 			);
 			path = ABTestDemosUITests;
+			sourceTree = "<group>";
+		};
+		D3831EB320625C2D005DD384 /* ABTestSevice */ = {
+			isa = PBXGroup;
+			children = (
+				D3831EB420625C2D005DD384 /* FABTestSeviceDef.h */,
+				D3831EB520625C2D005DD384 /* FSABTestFundModelParam.h */,
+				D3831EB620625C2D005DD384 /* FSABTestFundModelParam.m */,
+				D3831EB720625C2D005DD384 /* FSABTestManager.h */,
+				D3831EB820625C2D005DD384 /* FSABTestManager.m */,
+				D3831EB920625C2D005DD384 /* FSABTestModelResult.h */,
+				D3831EBA20625C2D005DD384 /* FSABTestModelResult.m */,
+				D3831EBB20625C2D005DD384 /* FSBasicABTestModel.h */,
+				D3831EBC20625C2D005DD384 /* FSBasicABTestModel.m */,
+				D3831EBD20625C2E005DD384 /* WYABTestProtocolDispatcher */,
+			);
+			path = ABTestSevice;
+			sourceTree = "<group>";
+		};
+		D3831EBD20625C2E005DD384 /* WYABTestProtocolDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				D3831EBE20625C2E005DD384 /* FSABTestProtocolDispatcher.h */,
+				D3831EBF20625C2E005DD384 /* FSABTestProtocolDispatcher.m */,
+			);
+			path = WYABTestProtocolDispatcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3831EC220625C2E005DD384 /* FSABTestModelResult.m in Sources */,
 				D3831E8620625C25005DD384 /* ViewController.m in Sources */,
 				D3831E9120625C25005DD384 /* main.m in Sources */,
+				D3831EC020625C2E005DD384 /* FSABTestFundModelParam.m in Sources */,
+				D3831EC420625C2E005DD384 /* FSABTestProtocolDispatcher.m in Sources */,
+				D3831EC120625C2E005DD384 /* FSABTestManager.m in Sources */,
 				D3831E8320625C25005DD384 /* AppDelegate.m in Sources */,
+				D3831EC320625C2E005DD384 /* FSBasicABTestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

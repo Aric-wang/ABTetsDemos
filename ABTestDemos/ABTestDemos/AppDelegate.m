@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "FSABTestManager.h"
+#import "FABTestSeviceDef.h"
+
+// AB Test
+#define FundAbTestKeyO @"FundAbTestKey"
+#define FundAbTestKeyT @"FundAbTestKeyT"
+#define FundAbTestKeyThree @"FundAbTestKeyThree"
 
 @interface AppDelegate ()
 
@@ -16,10 +23,36 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // ABTest
+    [self setABTest];
+    
     return YES;
 }
 
+- (void)setABTest
+{
+    // 设置 AB Test 策略
+    FSABTestModelResult *modelResult = [[FSABTestModelResult alloc] init];
+    [[FSABTestManager sharedABTestService] setWithfStartKeyPath:keyPath(modelResult.oneABTest) LocalStorageKey:FundAbTestKeyO Level:FSeviceABTest_HighLevel];
+    [[FSABTestManager sharedABTestService] setWithfStartKeyPath:keyPath(modelResult.abtestExtparams.twoABTest) LocalStorageKey:FundAbTestKeyT Level:FSeviceABTest_HighLevel];
+    [[FSABTestManager sharedABTestService] setWithfStartKeyPath:keyPath(modelResult.abtestExtparams.fundDetailRnAbtest.testStrategy) LocalStorageKey:FundAbTestKeyThree Level:FSeviceABTest_LowLevel];
+    
+    [[FSABTestManager sharedABTestService] updateHighLevelFlightStartABTestStoreValue];
+    
+    [[FSABTestManager sharedABTestService] updateLowLevelFlightStartABTestStoreValueWith:modelResult];
+    
+    // 请求AB Test 策略
+    [[FSABTestManager sharedABTestService] fetchAllABTests:nil parmas:nil successBlock:^(id dict) {
+        
+//        FSABTestModelResult *resultModel = [FSABTestModelResult yy_modelWithDictionary:dict];
+//        //更新AB Test
+//        [[FSABTestManager sharedABTestService] updateLowLevelFlightStartABTestStoreValueWith:resultModel];
+        
+    } failBlock:^(NSError *error) {
+        NSLog(@"%@",error);
+    }];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
