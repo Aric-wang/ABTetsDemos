@@ -7,84 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3831E8320625C25005DD384 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831E8220625C25005DD384 /* AppDelegate.m */; };
-		D3831E8620625C25005DD384 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831E8520625C25005DD384 /* ViewController.m */; };
-		D3831E8920625C25005DD384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3831E8720625C25005DD384 /* Main.storyboard */; };
-		D3831E8B20625C25005DD384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3831E8A20625C25005DD384 /* Assets.xcassets */; };
-		D3831E8E20625C25005DD384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3831E8C20625C25005DD384 /* LaunchScreen.storyboard */; };
-		D3831E9120625C25005DD384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831E9020625C25005DD384 /* main.m */; };
-		D3831E9B20625C25005DD384 /* ABTestDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831E9A20625C25005DD384 /* ABTestDemosTests.m */; };
-		D3831EA620625C25005DD384 /* ABTestDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EA520625C25005DD384 /* ABTestDemosUITests.m */; };
-		D3831EC020625C2E005DD384 /* FSABTestFundModelParam.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EB620625C2D005DD384 /* FSABTestFundModelParam.m */; };
-		D3831EC120625C2E005DD384 /* FSABTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EB820625C2D005DD384 /* FSABTestManager.m */; };
-		D3831EC220625C2E005DD384 /* FSABTestModelResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EBA20625C2D005DD384 /* FSABTestModelResult.m */; };
-		D3831EC320625C2E005DD384 /* FSBasicABTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EBC20625C2D005DD384 /* FSBasicABTestModel.m */; };
-		D3831EC420625C2E005DD384 /* FSABTestProtocolDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EBF20625C2E005DD384 /* FSABTestProtocolDispatcher.m */; };
+		D3831ED320625FD4005DD384 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831ED220625FD4005DD384 /* AppDelegate.m */; };
+		D3831ED620625FD4005DD384 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831ED520625FD4005DD384 /* ViewController.m */; };
+		D3831ED920625FD4005DD384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3831ED720625FD4005DD384 /* Main.storyboard */; };
+		D3831EDB20625FD4005DD384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3831EDA20625FD4005DD384 /* Assets.xcassets */; };
+		D3831EDE20625FD4005DD384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3831EDC20625FD4005DD384 /* LaunchScreen.storyboard */; };
+		D3831EE120625FD4005DD384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EE020625FD4005DD384 /* main.m */; };
+		D3831EEB20625FD4005DD384 /* ABTestDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EEA20625FD4005DD384 /* ABTestDemosTests.m */; };
+		D3831EF620625FD4005DD384 /* ABTestDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831EF520625FD4005DD384 /* ABTestDemosUITests.m */; };
+		D3831F1020625FF1005DD384 /* FSABTestFundModelParam.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831F0620625FF1005DD384 /* FSABTestFundModelParam.m */; };
+		D3831F1120625FF1005DD384 /* FSABTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831F0820625FF1005DD384 /* FSABTestManager.m */; };
+		D3831F1220625FF1005DD384 /* FSABTestModelResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831F0A20625FF1005DD384 /* FSABTestModelResult.m */; };
+		D3831F1320625FF1005DD384 /* FSBasicABTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831F0C20625FF1005DD384 /* FSBasicABTestModel.m */; };
+		D3831F1420625FF1005DD384 /* FSABTestProtocolDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D3831F0F20625FF1005DD384 /* FSABTestProtocolDispatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D3831E9720625C25005DD384 /* PBXContainerItemProxy */ = {
+		D3831EE720625FD4005DD384 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3831E7620625C25005DD384 /* Project object */;
+			containerPortal = D3831EC620625FD4005DD384 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3831E7D20625C25005DD384;
+			remoteGlobalIDString = D3831ECD20625FD4005DD384;
 			remoteInfo = ABTestDemos;
 		};
-		D3831EA220625C25005DD384 /* PBXContainerItemProxy */ = {
+		D3831EF220625FD4005DD384 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3831E7620625C25005DD384 /* Project object */;
+			containerPortal = D3831EC620625FD4005DD384 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3831E7D20625C25005DD384;
+			remoteGlobalIDString = D3831ECD20625FD4005DD384;
 			remoteInfo = ABTestDemos;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D3831E7E20625C25005DD384 /* ABTestDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABTestDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3831E8120625C25005DD384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D3831E8220625C25005DD384 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3831E8420625C25005DD384 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3831E8520625C25005DD384 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D3831E8820625C25005DD384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D3831E8A20625C25005DD384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3831E8D20625C25005DD384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D3831E8F20625C25005DD384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3831E9020625C25005DD384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3831E9620625C25005DD384 /* ABTestDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTestDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3831E9A20625C25005DD384 /* ABTestDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTestDemosTests.m; sourceTree = "<group>"; };
-		D3831E9C20625C25005DD384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3831EA120625C25005DD384 /* ABTestDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTestDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3831EA520625C25005DD384 /* ABTestDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTestDemosUITests.m; sourceTree = "<group>"; };
-		D3831EA720625C25005DD384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3831EB420625C2D005DD384 /* FABTestSeviceDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABTestSeviceDef.h; sourceTree = "<group>"; };
-		D3831EB520625C2D005DD384 /* FSABTestFundModelParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestFundModelParam.h; sourceTree = "<group>"; };
-		D3831EB620625C2D005DD384 /* FSABTestFundModelParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestFundModelParam.m; sourceTree = "<group>"; };
-		D3831EB720625C2D005DD384 /* FSABTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestManager.h; sourceTree = "<group>"; };
-		D3831EB820625C2D005DD384 /* FSABTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestManager.m; sourceTree = "<group>"; };
-		D3831EB920625C2D005DD384 /* FSABTestModelResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestModelResult.h; sourceTree = "<group>"; };
-		D3831EBA20625C2D005DD384 /* FSABTestModelResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestModelResult.m; sourceTree = "<group>"; };
-		D3831EBB20625C2D005DD384 /* FSBasicABTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBasicABTestModel.h; sourceTree = "<group>"; };
-		D3831EBC20625C2D005DD384 /* FSBasicABTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBasicABTestModel.m; sourceTree = "<group>"; };
-		D3831EBE20625C2E005DD384 /* FSABTestProtocolDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestProtocolDispatcher.h; sourceTree = "<group>"; };
-		D3831EBF20625C2E005DD384 /* FSABTestProtocolDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestProtocolDispatcher.m; sourceTree = "<group>"; };
+		D3831ECE20625FD4005DD384 /* ABTestDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABTestDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3831ED120625FD4005DD384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3831ED220625FD4005DD384 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3831ED420625FD4005DD384 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3831ED520625FD4005DD384 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3831ED820625FD4005DD384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3831EDA20625FD4005DD384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3831EDD20625FD4005DD384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3831EDF20625FD4005DD384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3831EE020625FD4005DD384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3831EE620625FD4005DD384 /* ABTestDemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTestDemosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3831EEA20625FD4005DD384 /* ABTestDemosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTestDemosTests.m; sourceTree = "<group>"; };
+		D3831EEC20625FD4005DD384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3831EF120625FD4005DD384 /* ABTestDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABTestDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3831EF520625FD4005DD384 /* ABTestDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABTestDemosUITests.m; sourceTree = "<group>"; };
+		D3831EF720625FD4005DD384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3831F0420625FF1005DD384 /* FABTestSeviceDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABTestSeviceDef.h; sourceTree = "<group>"; };
+		D3831F0520625FF1005DD384 /* FSABTestFundModelParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestFundModelParam.h; sourceTree = "<group>"; };
+		D3831F0620625FF1005DD384 /* FSABTestFundModelParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestFundModelParam.m; sourceTree = "<group>"; };
+		D3831F0720625FF1005DD384 /* FSABTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestManager.h; sourceTree = "<group>"; };
+		D3831F0820625FF1005DD384 /* FSABTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestManager.m; sourceTree = "<group>"; };
+		D3831F0920625FF1005DD384 /* FSABTestModelResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestModelResult.h; sourceTree = "<group>"; };
+		D3831F0A20625FF1005DD384 /* FSABTestModelResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestModelResult.m; sourceTree = "<group>"; };
+		D3831F0B20625FF1005DD384 /* FSBasicABTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBasicABTestModel.h; sourceTree = "<group>"; };
+		D3831F0C20625FF1005DD384 /* FSBasicABTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBasicABTestModel.m; sourceTree = "<group>"; };
+		D3831F0E20625FF1005DD384 /* FSABTestProtocolDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSABTestProtocolDispatcher.h; sourceTree = "<group>"; };
+		D3831F0F20625FF1005DD384 /* FSABTestProtocolDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSABTestProtocolDispatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D3831E7B20625C25005DD384 /* Frameworks */ = {
+		D3831ECB20625FD4005DD384 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3831E9320625C25005DD384 /* Frameworks */ = {
+		D3831EE320625FD4005DD384 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3831E9E20625C25005DD384 /* Frameworks */ = {
+		D3831EEE20625FD4005DD384 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,83 +94,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D3831E7520625C25005DD384 = {
+		D3831EC520625FD4005DD384 = {
 			isa = PBXGroup;
 			children = (
-				D3831E8020625C25005DD384 /* ABTestDemos */,
-				D3831E9920625C25005DD384 /* ABTestDemosTests */,
-				D3831EA420625C25005DD384 /* ABTestDemosUITests */,
-				D3831E7F20625C25005DD384 /* Products */,
+				D3831ED020625FD4005DD384 /* ABTestDemos */,
+				D3831EE920625FD4005DD384 /* ABTestDemosTests */,
+				D3831EF420625FD4005DD384 /* ABTestDemosUITests */,
+				D3831ECF20625FD4005DD384 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D3831E7F20625C25005DD384 /* Products */ = {
+		D3831ECF20625FD4005DD384 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3831E7E20625C25005DD384 /* ABTestDemos.app */,
-				D3831E9620625C25005DD384 /* ABTestDemosTests.xctest */,
-				D3831EA120625C25005DD384 /* ABTestDemosUITests.xctest */,
+				D3831ECE20625FD4005DD384 /* ABTestDemos.app */,
+				D3831EE620625FD4005DD384 /* ABTestDemosTests.xctest */,
+				D3831EF120625FD4005DD384 /* ABTestDemosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3831E8020625C25005DD384 /* ABTestDemos */ = {
+		D3831ED020625FD4005DD384 /* ABTestDemos */ = {
 			isa = PBXGroup;
 			children = (
-				D3831EB320625C2D005DD384 /* ABTestSevice */,
-				D3831E8120625C25005DD384 /* AppDelegate.h */,
-				D3831E8220625C25005DD384 /* AppDelegate.m */,
-				D3831E8420625C25005DD384 /* ViewController.h */,
-				D3831E8520625C25005DD384 /* ViewController.m */,
-				D3831E8720625C25005DD384 /* Main.storyboard */,
-				D3831E8A20625C25005DD384 /* Assets.xcassets */,
-				D3831E8C20625C25005DD384 /* LaunchScreen.storyboard */,
-				D3831E8F20625C25005DD384 /* Info.plist */,
-				D3831E9020625C25005DD384 /* main.m */,
+				D3831F0320625FF1005DD384 /* ABTestSevice */,
+				D3831ED120625FD4005DD384 /* AppDelegate.h */,
+				D3831ED220625FD4005DD384 /* AppDelegate.m */,
+				D3831ED420625FD4005DD384 /* ViewController.h */,
+				D3831ED520625FD4005DD384 /* ViewController.m */,
+				D3831ED720625FD4005DD384 /* Main.storyboard */,
+				D3831EDA20625FD4005DD384 /* Assets.xcassets */,
+				D3831EDC20625FD4005DD384 /* LaunchScreen.storyboard */,
+				D3831EDF20625FD4005DD384 /* Info.plist */,
+				D3831EE020625FD4005DD384 /* main.m */,
 			);
 			path = ABTestDemos;
 			sourceTree = "<group>";
 		};
-		D3831E9920625C25005DD384 /* ABTestDemosTests */ = {
+		D3831EE920625FD4005DD384 /* ABTestDemosTests */ = {
 			isa = PBXGroup;
 			children = (
-				D3831E9A20625C25005DD384 /* ABTestDemosTests.m */,
-				D3831E9C20625C25005DD384 /* Info.plist */,
+				D3831EEA20625FD4005DD384 /* ABTestDemosTests.m */,
+				D3831EEC20625FD4005DD384 /* Info.plist */,
 			);
 			path = ABTestDemosTests;
 			sourceTree = "<group>";
 		};
-		D3831EA420625C25005DD384 /* ABTestDemosUITests */ = {
+		D3831EF420625FD4005DD384 /* ABTestDemosUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D3831EA520625C25005DD384 /* ABTestDemosUITests.m */,
-				D3831EA720625C25005DD384 /* Info.plist */,
+				D3831EF520625FD4005DD384 /* ABTestDemosUITests.m */,
+				D3831EF720625FD4005DD384 /* Info.plist */,
 			);
 			path = ABTestDemosUITests;
 			sourceTree = "<group>";
 		};
-		D3831EB320625C2D005DD384 /* ABTestSevice */ = {
+		D3831F0320625FF1005DD384 /* ABTestSevice */ = {
 			isa = PBXGroup;
 			children = (
-				D3831EB420625C2D005DD384 /* FABTestSeviceDef.h */,
-				D3831EB520625C2D005DD384 /* FSABTestFundModelParam.h */,
-				D3831EB620625C2D005DD384 /* FSABTestFundModelParam.m */,
-				D3831EB720625C2D005DD384 /* FSABTestManager.h */,
-				D3831EB820625C2D005DD384 /* FSABTestManager.m */,
-				D3831EB920625C2D005DD384 /* FSABTestModelResult.h */,
-				D3831EBA20625C2D005DD384 /* FSABTestModelResult.m */,
-				D3831EBB20625C2D005DD384 /* FSBasicABTestModel.h */,
-				D3831EBC20625C2D005DD384 /* FSBasicABTestModel.m */,
-				D3831EBD20625C2E005DD384 /* WYABTestProtocolDispatcher */,
+				D3831F0420625FF1005DD384 /* FABTestSeviceDef.h */,
+				D3831F0520625FF1005DD384 /* FSABTestFundModelParam.h */,
+				D3831F0620625FF1005DD384 /* FSABTestFundModelParam.m */,
+				D3831F0720625FF1005DD384 /* FSABTestManager.h */,
+				D3831F0820625FF1005DD384 /* FSABTestManager.m */,
+				D3831F0920625FF1005DD384 /* FSABTestModelResult.h */,
+				D3831F0A20625FF1005DD384 /* FSABTestModelResult.m */,
+				D3831F0B20625FF1005DD384 /* FSBasicABTestModel.h */,
+				D3831F0C20625FF1005DD384 /* FSBasicABTestModel.m */,
+				D3831F0D20625FF1005DD384 /* WYABTestProtocolDispatcher */,
 			);
 			path = ABTestSevice;
 			sourceTree = "<group>";
 		};
-		D3831EBD20625C2E005DD384 /* WYABTestProtocolDispatcher */ = {
+		D3831F0D20625FF1005DD384 /* WYABTestProtocolDispatcher */ = {
 			isa = PBXGroup;
 			children = (
-				D3831EBE20625C2E005DD384 /* FSABTestProtocolDispatcher.h */,
-				D3831EBF20625C2E005DD384 /* FSABTestProtocolDispatcher.m */,
+				D3831F0E20625FF1005DD384 /* FSABTestProtocolDispatcher.h */,
+				D3831F0F20625FF1005DD384 /* FSABTestProtocolDispatcher.m */,
 			);
 			path = WYABTestProtocolDispatcher;
 			sourceTree = "<group>";
@@ -178,13 +178,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3831E7D20625C25005DD384 /* ABTestDemos */ = {
+		D3831ECD20625FD4005DD384 /* ABTestDemos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3831EAA20625C25005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemos" */;
+			buildConfigurationList = D3831EFA20625FD4005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemos" */;
 			buildPhases = (
-				D3831E7A20625C25005DD384 /* Sources */,
-				D3831E7B20625C25005DD384 /* Frameworks */,
-				D3831E7C20625C25005DD384 /* Resources */,
+				D3831ECA20625FD4005DD384 /* Sources */,
+				D3831ECB20625FD4005DD384 /* Frameworks */,
+				D3831ECC20625FD4005DD384 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -192,71 +192,71 @@
 			);
 			name = ABTestDemos;
 			productName = ABTestDemos;
-			productReference = D3831E7E20625C25005DD384 /* ABTestDemos.app */;
+			productReference = D3831ECE20625FD4005DD384 /* ABTestDemos.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3831E9520625C25005DD384 /* ABTestDemosTests */ = {
+		D3831EE520625FD4005DD384 /* ABTestDemosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3831EAD20625C25005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosTests" */;
+			buildConfigurationList = D3831EFD20625FD4005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosTests" */;
 			buildPhases = (
-				D3831E9220625C25005DD384 /* Sources */,
-				D3831E9320625C25005DD384 /* Frameworks */,
-				D3831E9420625C25005DD384 /* Resources */,
+				D3831EE220625FD4005DD384 /* Sources */,
+				D3831EE320625FD4005DD384 /* Frameworks */,
+				D3831EE420625FD4005DD384 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3831E9820625C25005DD384 /* PBXTargetDependency */,
+				D3831EE820625FD4005DD384 /* PBXTargetDependency */,
 			);
 			name = ABTestDemosTests;
 			productName = ABTestDemosTests;
-			productReference = D3831E9620625C25005DD384 /* ABTestDemosTests.xctest */;
+			productReference = D3831EE620625FD4005DD384 /* ABTestDemosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D3831EA020625C25005DD384 /* ABTestDemosUITests */ = {
+		D3831EF020625FD4005DD384 /* ABTestDemosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3831EB020625C25005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosUITests" */;
+			buildConfigurationList = D3831F0020625FD4005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosUITests" */;
 			buildPhases = (
-				D3831E9D20625C25005DD384 /* Sources */,
-				D3831E9E20625C25005DD384 /* Frameworks */,
-				D3831E9F20625C25005DD384 /* Resources */,
+				D3831EED20625FD4005DD384 /* Sources */,
+				D3831EEE20625FD4005DD384 /* Frameworks */,
+				D3831EEF20625FD4005DD384 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3831EA320625C25005DD384 /* PBXTargetDependency */,
+				D3831EF320625FD4005DD384 /* PBXTargetDependency */,
 			);
 			name = ABTestDemosUITests;
 			productName = ABTestDemosUITests;
-			productReference = D3831EA120625C25005DD384 /* ABTestDemosUITests.xctest */;
+			productReference = D3831EF120625FD4005DD384 /* ABTestDemosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D3831E7620625C25005DD384 /* Project object */ = {
+		D3831EC620625FD4005DD384 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = com.gmfund.app;
 				TargetAttributes = {
-					D3831E7D20625C25005DD384 = {
+					D3831ECD20625FD4005DD384 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					D3831E9520625C25005DD384 = {
+					D3831EE520625FD4005DD384 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = D3831E7D20625C25005DD384;
+						TestTargetID = D3831ECD20625FD4005DD384;
 					};
-					D3831EA020625C25005DD384 = {
+					D3831EF020625FD4005DD384 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = D3831E7D20625C25005DD384;
+						TestTargetID = D3831ECD20625FD4005DD384;
 					};
 				};
 			};
-			buildConfigurationList = D3831E7920625C25005DD384 /* Build configuration list for PBXProject "ABTestDemos" */;
+			buildConfigurationList = D3831EC920625FD4005DD384 /* Build configuration list for PBXProject "ABTestDemos" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -264,37 +264,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D3831E7520625C25005DD384;
-			productRefGroup = D3831E7F20625C25005DD384 /* Products */;
+			mainGroup = D3831EC520625FD4005DD384;
+			productRefGroup = D3831ECF20625FD4005DD384 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3831E7D20625C25005DD384 /* ABTestDemos */,
-				D3831E9520625C25005DD384 /* ABTestDemosTests */,
-				D3831EA020625C25005DD384 /* ABTestDemosUITests */,
+				D3831ECD20625FD4005DD384 /* ABTestDemos */,
+				D3831EE520625FD4005DD384 /* ABTestDemosTests */,
+				D3831EF020625FD4005DD384 /* ABTestDemosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D3831E7C20625C25005DD384 /* Resources */ = {
+		D3831ECC20625FD4005DD384 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3831E8E20625C25005DD384 /* LaunchScreen.storyboard in Resources */,
-				D3831E8B20625C25005DD384 /* Assets.xcassets in Resources */,
-				D3831E8920625C25005DD384 /* Main.storyboard in Resources */,
+				D3831EDE20625FD4005DD384 /* LaunchScreen.storyboard in Resources */,
+				D3831EDB20625FD4005DD384 /* Assets.xcassets in Resources */,
+				D3831ED920625FD4005DD384 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3831E9420625C25005DD384 /* Resources */ = {
+		D3831EE420625FD4005DD384 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3831E9F20625C25005DD384 /* Resources */ = {
+		D3831EEF20625FD4005DD384 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,65 +304,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D3831E7A20625C25005DD384 /* Sources */ = {
+		D3831ECA20625FD4005DD384 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3831EC220625C2E005DD384 /* FSABTestModelResult.m in Sources */,
-				D3831E8620625C25005DD384 /* ViewController.m in Sources */,
-				D3831E9120625C25005DD384 /* main.m in Sources */,
-				D3831EC020625C2E005DD384 /* FSABTestFundModelParam.m in Sources */,
-				D3831EC420625C2E005DD384 /* FSABTestProtocolDispatcher.m in Sources */,
-				D3831EC120625C2E005DD384 /* FSABTestManager.m in Sources */,
-				D3831E8320625C25005DD384 /* AppDelegate.m in Sources */,
-				D3831EC320625C2E005DD384 /* FSBasicABTestModel.m in Sources */,
+				D3831F1220625FF1005DD384 /* FSABTestModelResult.m in Sources */,
+				D3831ED620625FD4005DD384 /* ViewController.m in Sources */,
+				D3831EE120625FD4005DD384 /* main.m in Sources */,
+				D3831F1020625FF1005DD384 /* FSABTestFundModelParam.m in Sources */,
+				D3831F1420625FF1005DD384 /* FSABTestProtocolDispatcher.m in Sources */,
+				D3831F1120625FF1005DD384 /* FSABTestManager.m in Sources */,
+				D3831ED320625FD4005DD384 /* AppDelegate.m in Sources */,
+				D3831F1320625FF1005DD384 /* FSBasicABTestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3831E9220625C25005DD384 /* Sources */ = {
+		D3831EE220625FD4005DD384 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3831E9B20625C25005DD384 /* ABTestDemosTests.m in Sources */,
+				D3831EEB20625FD4005DD384 /* ABTestDemosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3831E9D20625C25005DD384 /* Sources */ = {
+		D3831EED20625FD4005DD384 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3831EA620625C25005DD384 /* ABTestDemosUITests.m in Sources */,
+				D3831EF620625FD4005DD384 /* ABTestDemosUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D3831E9820625C25005DD384 /* PBXTargetDependency */ = {
+		D3831EE820625FD4005DD384 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3831E7D20625C25005DD384 /* ABTestDemos */;
-			targetProxy = D3831E9720625C25005DD384 /* PBXContainerItemProxy */;
+			target = D3831ECD20625FD4005DD384 /* ABTestDemos */;
+			targetProxy = D3831EE720625FD4005DD384 /* PBXContainerItemProxy */;
 		};
-		D3831EA320625C25005DD384 /* PBXTargetDependency */ = {
+		D3831EF320625FD4005DD384 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3831E7D20625C25005DD384 /* ABTestDemos */;
-			targetProxy = D3831EA220625C25005DD384 /* PBXContainerItemProxy */;
+			target = D3831ECD20625FD4005DD384 /* ABTestDemos */;
+			targetProxy = D3831EF220625FD4005DD384 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3831E8720625C25005DD384 /* Main.storyboard */ = {
+		D3831ED720625FD4005DD384 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D3831E8820625C25005DD384 /* Base */,
+				D3831ED820625FD4005DD384 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D3831E8C20625C25005DD384 /* LaunchScreen.storyboard */ = {
+		D3831EDC20625FD4005DD384 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D3831E8D20625C25005DD384 /* Base */,
+				D3831EDD20625FD4005DD384 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -370,7 +370,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D3831EA820625C25005DD384 /* Debug */ = {
+		D3831EF820625FD4005DD384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,7 +425,7 @@
 			};
 			name = Debug;
 		};
-		D3831EA920625C25005DD384 /* Release */ = {
+		D3831EF920625FD4005DD384 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -474,7 +474,7 @@
 			};
 			name = Release;
 		};
-		D3831EAB20625C25005DD384 /* Debug */ = {
+		D3831EFB20625FD4005DD384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -488,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		D3831EAC20625C25005DD384 /* Release */ = {
+		D3831EFC20625FD4005DD384 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -502,7 +502,7 @@
 			};
 			name = Release;
 		};
-		D3831EAE20625C25005DD384 /* Debug */ = {
+		D3831EFE20625FD4005DD384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,7 +517,7 @@
 			};
 			name = Debug;
 		};
-		D3831EAF20625C25005DD384 /* Release */ = {
+		D3831EFF20625FD4005DD384 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,7 +532,7 @@
 			};
 			name = Release;
 		};
-		D3831EB120625C25005DD384 /* Debug */ = {
+		D3831F0120625FD4005DD384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -546,7 +546,7 @@
 			};
 			name = Debug;
 		};
-		D3831EB220625C25005DD384 /* Release */ = {
+		D3831F0220625FD4005DD384 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -563,43 +563,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3831E7920625C25005DD384 /* Build configuration list for PBXProject "ABTestDemos" */ = {
+		D3831EC920625FD4005DD384 /* Build configuration list for PBXProject "ABTestDemos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3831EA820625C25005DD384 /* Debug */,
-				D3831EA920625C25005DD384 /* Release */,
+				D3831EF820625FD4005DD384 /* Debug */,
+				D3831EF920625FD4005DD384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3831EAA20625C25005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemos" */ = {
+		D3831EFA20625FD4005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3831EAB20625C25005DD384 /* Debug */,
-				D3831EAC20625C25005DD384 /* Release */,
+				D3831EFB20625FD4005DD384 /* Debug */,
+				D3831EFC20625FD4005DD384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3831EAD20625C25005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosTests" */ = {
+		D3831EFD20625FD4005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3831EAE20625C25005DD384 /* Debug */,
-				D3831EAF20625C25005DD384 /* Release */,
+				D3831EFE20625FD4005DD384 /* Debug */,
+				D3831EFF20625FD4005DD384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3831EB020625C25005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosUITests" */ = {
+		D3831F0020625FD4005DD384 /* Build configuration list for PBXNativeTarget "ABTestDemosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3831EB120625C25005DD384 /* Debug */,
-				D3831EB220625C25005DD384 /* Release */,
+				D3831F0120625FD4005DD384 /* Debug */,
+				D3831F0220625FD4005DD384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D3831E7620625C25005DD384 /* Project object */;
+	rootObject = D3831EC620625FD4005DD384 /* Project object */;
 }
